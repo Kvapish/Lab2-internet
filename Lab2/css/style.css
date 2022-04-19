@@ -1,0 +1,790 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, ol, ul, li, a, p {
+    font-family: "Tahoma";
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+}
+.wrapper {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.page-header {
+    background-color: #2980b9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2
+}
+.page-header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-header .menu {
+    display: flex;
+}
+.page-header .menu .stile {
+    width: 15px;
+}
+
+.page-header .menu .menu-item .stile2 {
+    width: 15px;
+    padding: 8px;
+
+}
+.page-header .menu .menu-item > a {
+    display: inline-block;
+    color: #fff;
+    padding-top: 18px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-bottom: 18px;
+}
+.page-content {
+    margin-top: 55px;
+}
+.page-content .wrapper {
+    display: flex;
+}
+.logo
+{  
+    width: 150px;
+    justify-content: space-between;
+    display: flex; 
+}
+
+.logotype {
+    display: flex; 
+}
+.text_logo{
+    display: flex;
+    padding-top: 70px;
+}
+.color >li
+{
+    font-size: 15px;
+    margin-left: 48px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+.avatar {
+    position: relative;
+    z-index: 1;
+    
+}
+.image1{
+   width: 100%;
+   height: 675px;
+}
+.avatar {
+    width: 100%;
+    border-radius: 3px;
+}
+ .avatar .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 675px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+}
+.avatar:hover .overlay {
+    opacity: 0;
+}
+.title {
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.avatar .overlay_text{
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    left: 20%;
+    bottom:30%;
+    text-align: center;
+    z-index: 3;
+}
+.overlay_text>h1{
+    font-size: 40px;
+    color :rgb(255, 255, 255);  
+    font-weight: bold;
+}
+.overlay_text>p{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color :rgb(255, 255, 255);  
+}
+.overlay_text .button{
+margin-top: 100px;
+text-align: center;
+}
+.overlay_text .button1{
+color: #fff;
+font-size: 15px;
+border-radius: 5%;
+padding: 20px;
+margin-right: 10px;
+background-color:rgb(76, 168, 76);
+font-weight: bold;
+}
+.overlay_text .button2{
+    color:rgb(120, 120, 120);
+    border-radius: 5%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 5px;
+    background-color:rgb(255, 255, 255);
+}
+.content>h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.underline{
+    color: rgb(0, 0, 0); 
+    background-color: #000;
+    height: 3px;
+    width: 60px;
+}
+.content .content_image{
+    width: 30%;
+}
+.content_image>img{
+    width: 100%;
+    height: 70%;
+}
+.image_content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.content_image .color_text{
+    font-weight: bold;
+    font-size: 17px;
+    color:rgb(250, 250, 250);
+    text-align: left;
+    padding: 25px;
+}
+.content_image .color_text1
+{
+    text-align: left;
+    background-color: #2980b9;
+    font-size: 15px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    color:rgb(210, 210, 210);
+}
+.content_image>p{
+    width: 100%;
+    background-color: #2980b9;
+    padding-top: 10px;
+    margin-top: -5px;
+}
+.content_green{  
+    background-color: rgb(245, 245, 245);
+}
+.content > h1{
+   padding-top: 100px;
+}
+.frame{
+    border: 2px rgb(120, 120, 120) solid;
+    width: 22%;
+    text-align: center;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.frame .img_experienced{
+    padding-top: 25px;
+    width: 100px;
+}
+.frame>p{
+    color:rgb(61, 61, 61);
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.frame_list{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.log_password {
+    width: 100%;
+    height: 300px;
+    background-color: #2980b9;
+}
+.log_password .wrapper .content{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.log_password .wrapper .content > li .text > h1 {
+    color: #fff;
+    font-size: 33px;
+}
+.log_password .wrapper .content > li {
+    width: 32%;
+}
+.log_password .wrapper .content > li .text .underline1 {
+    padding-top: 14px;
+    width: 80px;
+    border-bottom: #fff solid 4px;
+}
+.log_password .wrapper .content > li .text > p {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 14px;
+}
+.log_password .wrapper .content > li > input {
+    margin-top: 10px;
+    width: 93%;
+    padding: 10px;
+}
+.log_password .wrapper .content > li > select {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(120, 120, 120);
+}
+.log_password .wrapper .content > li .button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 20%;
+    border-radius: 3px;
+    background-color: rgb(76, 168, 76);
+}
+.log_password .wrapper .content > li .button > p  {
+    text-align: center;
+}
+.log_password .wrapper .content > li .button > p > a{
+    color: #fff;
+    font-weight:bolder;
+}
+.featuer_projects .content1>h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.featuer_projects .wrapper .content2 .content_image2{
+    width: 30%;
+    position: relative;
+}
+.featuer_projects .wrapper .content2 .content_image2 .stile4 {
+    width: 100%;
+    height: 100%;
+}
+.featuer_projects .wrapper .content2{
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 120px;
+}
+.featuer_projects .wrapper .content2 > li > p {
+    background-color: rgba(41, 128, 185, 0.8);
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    position:absolute;
+    right: 0;
+    top: 81%;
+    left: 0;
+    font-size: 15px;
+    padding: 10px;
+}
+.banner .banner_color{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.banner .banner_color > img{
+    width: 100%;
+    height: 100%;
+}
+.banner .banner_color .overlay1 {
+    background-color: rgba(0, 65, 185, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.banner .banner_text {
+    display: flex;
+    justify-content: space-around;
+}
+.banner .banner_color .overlay1 .wrapper .banner_text {
+    text-align: center;
+}
+.banner .banner_color .overlay1 .wrapper .banner_text > li > h1 {
+    color: rgb(245, 245, 245);
+    padding-top: 120px;
+    font-weight:bolder;
+    font-size: 40px;
+}
+.banner .banner_color .overlay1 .wrapper .banner_text > li > h2{
+    color: rgb(245, 245, 245);
+    font-size: 15px;
+}  
+.latest {
+    background-color:rgb(245, 245, 245);
+}
+.latest .latest_text > h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.latest .wrapper .content3 .content_image3{
+    width: 30%;
+    position: relative;
+}
+.latest .wrapper .content3 .content_image3 .stile5 {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+}
+.latest .wrapper .content3 {
+    justify-content: space-between;
+    display: flex;
+    padding-bottom: 120px;
+}
+.latest .wrapper .content3 .adm_calendar .stile6 { 
+    width: 15px;
+    height: 15px;
+}
+.latest .wrapper .content3 .adm_calendar .stile7 { 
+    width: 15px;
+    height: 15px;
+}
+.latest .wrapper .content3 .content_image3 > p{
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar > ul > li .admin > ul > li {
+    display: flex;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar > ul > li .admin > ul > li .line_vertical{
+    padding-left: 20px;
+    border-right: #333 solid 2px;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar > ul > li .admin > ul > li > .stile7  {
+    padding-left:30px; 
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar > ul > li .admin > ul > li > h1{
+    padding-left: 5px;
+    color: #333;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar > ul > li .admin > ul > li > h2 {
+    color: rgb(33, 175, 43);
+    padding-left: 5px;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar .admin{
+    padding-top: 10px;
+}
+.latest .wrapper .content3 .content_image3 > h2{
+    padding-top: 10px;
+    font-size: 15px;
+    color: #333;
+}
+.latest .wrapper .content_image3{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.latest .wrapper .content3 .content_image3 > p {
+    padding-left: 20px;
+}
+.latest .wrapper .content3 .content_image3 .adm_calendar {
+    padding-left: 20px;
+}
+.latest .wrapper .content3 .content_image3 > h2{
+    padding-left: 20px;
+}
+.latest .wrapper .content3 .content_image3 {
+    padding-bottom: 40px;
+}
+.latest .wrapper .content3 .content_image3 .button{
+    background-color: rgb(76, 168, 76);
+    margin-top: 20px;
+    padding: 5px;
+    width: 30%;
+    border-radius: 3px;
+    margin-left: 20px;
+    text-align: center;
+}
+.latest .wrapper .content3 .content_image3 .button > p > a {
+    color: #fff;
+}
+.bussines_partner .bussines_partner_text > h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    padding-bottom: 30px;
+}
+.bussines_partner .wrapper .bussines_partner1{
+    justify-content: center;
+    display: flex;
+}
+.bussines_partner .bussines_partner1 > img{
+    padding: 0 30px ;
+    width: 100px;
+    height: 90px;
+    
+}
+.testimonials .testimonials_text > h1 {
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color:#fff;
+    padding-bottom: 30px;
+}
+.testimonials .testimonials_text > h1 .underline3{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    width: 60px;
+}
+.testimonials{
+    padding-top: 70px;
+}
+.testimonials .testimonials_fon {
+    position: relative;
+    width: 100%;
+    height: 620px;
+}
+.testimonials .testimonials_fon > img{
+    width: 100%;
+    height: 100%;
+}
+.testimonials .testimonials_fon .overlay1{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1 {
+    border: 2px rgb(120, 120, 120) solid;
+    width: 470px;
+    margin-bottom: 10px;
+    height: 260px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1  {
+    display: flex;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1 .text_fon > h1{
+    padding-top: 70px;
+    padding-left: 20px;
+    color:  rgb(255, 255, 255);
+    font-size: 17px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1 .text_fon > h2{
+    padding-left: 20px;
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 13px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1 .text_fon > h3{
+    padding-left: 20px;
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 13px;
+    padding-right: 30px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame1 .img_experienced1{
+    padding-top: 70px;
+    width: 170px;
+    height: 120px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 {
+    border: 2px rgb(120, 120, 120) solid;
+    width: 470px;
+    margin-bottom: 10px;
+    height: 260px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2  {
+    display: flex;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 .text_fon1{
+    text-align: right;
+    padding-top: 0px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 .text_fon1 > h4{
+    padding-top: 70px;
+    padding-left: 30px;
+    color:  rgb(255, 255, 255);
+    font-size: 17px;
+    padding-right: 20px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 .text_fon1 > h5{
+    padding-left: 30px;
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 13px;
+    padding-right: 20px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 .text_fon1 > h6{
+    padding-left: 30px;
+    color:  rgb(255, 255, 255);
+    padding-top: 10px;
+    font-size: 13px;
+    padding-right: 20px;
+}
+
+.testimonials .testimonials_fon  .overlay1 .wrapper .frame_list1 .frame2 .img_experienced2 {
+    padding-top: 70px;
+    width: 170px;
+    height: 120px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .line {
+    padding-top: 40px;
+    display: flex;
+    width: 250px;
+    margin-left: 362px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .underline4{
+    background-color: rgb(19, 231, 0);
+    height: 3px;
+    width: 60px;
+}
+.testimonials .testimonials_fon  .overlay1 .wrapper .underline3{
+    background-color:  rgb(255, 255, 255);
+    height: 3px;
+    width: 60px;
+}
+.sign_up .wrapper{
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.sign_up .wrapper .sign_up_text > h1{
+    padding-top: 100px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color:#333;
+    padding-bottom: 20px;
+}
+.sign_up .wrapper .sign_up_text > .underline{
+    background-color: rgb(0, 0, 0);
+    height: 3px;
+    width: 60px;
+}
+
+.sign_up .wrapper .sign_up_text > p{
+    padding: 0 160px;
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(120, 120, 120);
+}
+.sign_up .wrapper .email > li {
+    display: flex;
+    justify-content: center;
+}
+.sign_up .wrapper .email > li > input {
+    margin-top: 20px;
+    width: 400px;
+    padding: 10px;
+}
+.sign_up .wrapper .email >li > p > a{
+    color: #fff;
+}
+.sign_up .wrapper .email >li > p {
+    margin-top: 20px;
+    padding: 10px;
+    width: 10%;
+    background-color: rgb(76, 168, 76);
+    text-align: center;
+}
+.logo_end .logo_end_fon{
+    position: relative;
+}
+.logo_end .logo_end_fon  > img{
+    width: 100%;
+    height: 470px;
+   
+}
+.logo_end .logo_end_fon .overlay1 {
+background-color: rgba(0, 0, 0, 0.6);
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 99%;
+}
+.logo_end .logo_end_fon .overlay1 .logo_end1 > li{
+    display: flex;
+}
+.logo_end .logo_end_fon .overlay1 .logo_end1 .logo_first > li .logo_end_photo {
+    padding-top: 50px;
+    width: 130px;
+    height: 110px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 .logo_first > li > p{
+    width: 200px;
+    color: #fff;
+    text-align: left;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_first > li .logo_end_image > li {
+    text-align: left;
+    padding-top: 25px;
+    width: 20px;
+    display: flex;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_first > li .logo_end_image > li > img{
+    height: 35px;
+    width: 35px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li{
+    padding-top: 119px;
+    padding-left: 30px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li > p{
+    padding-bottom: 20px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li > p > a{
+    font-size: 19px;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us2{
+    display: flex;
+    padding-bottom: 10px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us2  > img {
+    width: 17px;
+    padding-right: 5px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us2  > h2 > a {
+    font-size: 13px ;
+    white-space:nowrap;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li > h3 >a {
+    font-size: 15px;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li > h3 > img {
+    width: 12px;
+    padding-right: 5px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us3{
+    display: flex;
+    padding-bottom: 10px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us3  > img {
+    width: 15px;
+    padding-right: 5px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us3  > h3 > a {
+    font-size: 13px ;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us4{
+    display: flex;
+    padding-bottom: 10px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us4  > img {
+    width: 15px;
+    padding-right: 5px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us4  > h4 > a {
+    font-size: 13px ;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li .contact_us5 > h5 > a {
+    font-size: 13px ;
+    color: #fff;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .contact_us > li .contact_us1 > li > h5 > a{
+    font-size: 13px;
+    color: #fff;
+    margin-left: 20px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company > li{
+    padding-top: 119px;
+    padding-left: 30px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company > li > p {
+    padding-bottom: 20px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company{
+    list-style: disc;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company > li > p > a{
+    color: #fff;
+    font-size: 19px;
+}.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company > li .company_1 > li .company_2 > h1{
+    padding-bottom: 3px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .company > li .company_1 > li .company_2 > h1 > a{
+    color: #fff;
+   
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .list > li .company_3 {
+padding-left: 15px ;
+padding-top: 162px;
+
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .list > li .company_3 > h1{
+    padding-bottom: 3px;
+    padding-right: 50px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .list > li .company_3 > h1 > a{
+    color: #fff;
+    white-space:nowrap;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .gallery > li {
+    padding-top: 119px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .gallery > li > p {
+    padding-bottom: 22px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .gallery > li > p > a{
+    color: #fff;
+    font-size: 19px;
+}
+.logo_end .logo_end_fon .overlay1 .wrapper .logo_end1 > li .gallery > li .gallery1 > img{
+    height: 70px;
+    width: 70px;
+    padding: 10px 2px;
+}
+.logo_end .logo_end_fon .overlay1 .final_part{
+   margin-top: 100px;
+}
+.logo_end .logo_end_fon .overlay1 .final_part > p{
+    color: #fff;
+    
+}
+.logo_end .logo_end_fon .overlay1 .final_part{
+    text-align: center;
+    background-color: rgb(3, 64, 104);
+    padding: 15px;
+    
+}
