@@ -54,7 +54,7 @@ p {
 }
 
 .page-header .wrapper .menu .menu-item .stile2 {
-    width: 15px;
+    width: 17px;
     padding: 8px;
 
 }
@@ -454,6 +454,7 @@ p {
     margin-top: 15px;
     font-size: 15px;
     font-weight: bold;
+    padding-left: 20px;
 }
 
 .latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li {
@@ -463,10 +464,6 @@ p {
 .latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li .line_vertical {
     padding-left: 20px;
     border-right: #333 solid 2px;
-}
-
-.latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li>.stile7 {
-    padding-left: 30px;
 }
 
 .latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li>h1 {
@@ -492,14 +489,6 @@ p {
 .latest .wrapper .content_image3 {
     background-color: #fff;
     border-radius: 10px;
-}
-
-.latest .wrapper .content3 .content_image3>p {
-    padding-left: 20px;
-}
-
-.latest .wrapper .content3 .content_image3 .adm_calendar {
-    padding-left: 20px;
 }
 
 .latest .wrapper .content3 .content_image3>h2 {
@@ -783,11 +772,13 @@ p {
     padding-top: 25px;
     width: 20px;
     display: flex;
+
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_first>li .logo_end_image>li>img {
     height: 35px;
     width: 35px;
+    padding-right: 7px;
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .contact_us>li {
