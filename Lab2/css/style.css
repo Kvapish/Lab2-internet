@@ -56,7 +56,6 @@ p {
 .page-header .wrapper .menu .menu-item .stile2 {
     width: 17px;
     padding: 8px;
-
 }
 
 .page-header .wrapper .menu .menu-item>a {
@@ -68,34 +67,34 @@ p {
     padding-bottom: 18px;
 }
 
-.page-content {
-    margin-top: 55px;
-}
-
-.page-content .wrapper {
+.page-content .block .wrapper .logo {
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 5px;
 }
 
-.page-content .wrapper .posts-list .post .logotype .logo {
-    width: 150px;
+.page-content .block .wrapper .logo>img {
+    width: 100px;
+}
+
+.page-content .block .wrapper {
     justify-content: space-between;
     display: flex;
 }
 
-.page-content .wrapper .posts-list .post .logotype {
+.page-content .block .wrapper .text {
     display: flex;
 }
 
-.page-content .wrapper .posts-list .post .logotype .text_logo {
-    display: flex;
-    padding-top: 70px;
+.page-content .block .wrapper .text .element {
+    padding-top: 105px;
+
 }
 
-.page-content .wrapper .posts-list .post .logotype .text_logo .color>li {
-    font-size: 15px;
-    padding-left: 60px;
+.page-content .block .wrapper .text .element>p>a {
+    font-size: 14px;
+    padding-left: 44px;
     font-weight: bold;
-    color: rgb(82, 82, 82);
 }
 
 .avatar {
@@ -103,7 +102,6 @@ p {
     z-index: 1;
     width: 100%;
     border-radius: 3px;
-
 }
 
 .avatar .image1 {
@@ -443,11 +441,14 @@ p {
 .latest .wrapper .content3 .adm_calendar .stile6 {
     width: 15px;
     height: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .latest .wrapper .content3 .adm_calendar .stile7 {
     width: 15px;
     height: 15px;
+    padding-left: 10px;
 }
 
 .latest .wrapper .content3 .content_image3>p {
@@ -467,13 +468,12 @@ p {
 }
 
 .latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li>h1 {
-    padding-left: 5px;
     color: #333;
 }
 
 .latest .wrapper .content3 .content_image3 .adm_calendar>ul>li .admin>ul>li>h2 {
     color: rgb(33, 175, 43);
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .latest .wrapper .content3 .content_image3 .adm_calendar .admin {
@@ -501,9 +501,9 @@ p {
 
 .latest .wrapper .content3 .content_image3 .button {
     background-color: rgb(76, 168, 76);
-    margin-top: 20px;
+    margin-top: 25px;
     padding: 5px;
-    width: 30%;
+    width: 40%;
     border-radius: 3px;
     margin-left: 20px;
     text-align: center;
@@ -783,7 +783,7 @@ p {
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .contact_us>li {
     padding-top: 119px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .contact_us>li>p {
@@ -859,12 +859,12 @@ p {
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .contact_us>li .contact_us1>li>h5>a {
     font-size: 13px;
     color: #fff;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .company>li {
     padding-top: 119px;
-    padding-left: 30px;
+    padding-left: 40px;
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .company>li>p {
@@ -886,18 +886,16 @@ p {
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .company>li .company_1>li .company_2>h1>a {
     color: #fff;
-
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .list>li .company_3 {
     padding-left: 15px;
     padding-top: 162px;
-
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .list>li .company_3>h1 {
     padding-bottom: 3px;
-    padding-right: 50px;
+    padding-right: 100px;
 }
 
 .logo_end .logo_end_fon .overlay1 .wrapper .logo_end1>li .list>li .company_3>h1>a {
@@ -930,12 +928,10 @@ p {
 
 .logo_end .logo_end_fon .overlay1 .final_part>p {
     color: #fff;
-
 }
 
 .logo_end .logo_end_fon .overlay1 .final_part {
     text-align: center;
     background-color: rgb(3, 64, 104);
     padding: 15px;
-
 }
